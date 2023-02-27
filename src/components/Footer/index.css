@@ -1,0 +1,44 @@
+.container_footer {
+    width: 100%;
+    height: 100px;
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.social_div {
+    width: 60%;
+    height: 80px;
+
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+    padding-left: 10px;
+
+    /*border-right: 2px solid #ff605c;*/
+}
+
+.copyright_div {
+    width: 40%;
+    height: 50px;
+
+    align-self: flex-end;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 25px;
+
+    color: white;
+    font-size: 16px;
+}
+
+.img_footer {
+    width: 35px;
+    height: 35px;
+}

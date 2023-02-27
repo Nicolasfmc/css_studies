@@ -1,0 +1,94 @@
+.body {
+    height: 100%;
+    width: 100%;
+
+    background-image: url(../../assets/loginBkg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.card {
+    width: 45%;
+    height: 50%;
+
+    /* Deixar conteudo no centro */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    /* Cor, sombra, border radius */
+    border-radius: 25px;
+    background: linear-gradient(145deg, #5a0ca8, #4c0a8d);
+    box-shadow:  1px 1px 30px #8612fb,
+                 -1px -1px 3px #8612fb;
+}
+
+.text_div {
+    height: 40%;
+    width: 80%;
+
+    border-bottom: 2px solid #9c39ff;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    color: white;
+}
+
+.input_div {
+    height: 60%;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+}
+
+.checkmark_div {
+    width: 35%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.welcome_h1 {
+    margin: 0;
+}
+
+.welcome_p {
+    text-align: center;
+    font-size: 15px;
+}
+
+.button {
+    width: 45%;
+    height: 5%;
+    margin-top: 1%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+.button button {
+    align-self: center;
+}
